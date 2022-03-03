@@ -14,7 +14,10 @@ export default {
       if (fullPath.slice(-1) == "/")
         fullPath = path.substr(0, fullPath.length - 1);
 
-      const url = `${process.env.baseUrl}/data${fullPath}.json`;
+      // TODO: Mettre ça d'équerre
+      const url = "http://localhost:3000" + `/data${fullPath}.json`;
+      //const url = `${process.env.baseUrl}/data${fullPath}.json`;
+
       const { data } = await axios.get(url);
 
       //wait if still fading
@@ -64,7 +67,7 @@ export default {
         },
         { name: "twitter:image", content: this.pageData.metaImage },
       ],
-      script: [{ innerHTML: this.googleAnalytic(), body: true }],
+      //script: [{ innerHTML: this.googleAnalytic(), body: true }],
     };
   },
   computed: {
