@@ -209,7 +209,7 @@ img {
   opacity: 0;
   min-width: 274px;
   z-index: 1;
-  @include transition(all 0.3s);
+  transition: all 0.3s;
   @include translateY(-10px);
 }
 .menu-item--dropdown-item a {
@@ -275,11 +275,8 @@ img {
   height: 2px;
   position: absolute;
   background-color: rgb(80, 78, 78);
-  @include transition(
-    opacity 0.075s 0.12s ease,
-    top 0.075s ease,
-    transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1)
-  );
+  transition: opacity 0.075s 0.12s ease, top 0.075s ease,
+    transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .hamburger-menu-icon span:nth-child(2) {
   top: 10px;
@@ -327,7 +324,7 @@ img {
     margin-left: 20px;
     margin-bottom: 20px;
     line-height: 1.4em;
-    //@include transition(opacity .3s);
+    transition: opacity 0.3s;
     &::before {
       font-size: 1.8em;
     }
@@ -872,7 +869,7 @@ address {
 
 /*** transition effect **/
 .fadefx {
-  @include transition(opacity 0.35s);
+  transition: opacity 0.35s;
 }
 
 /** avoid zoom in iOS mobile device when entering input **/
@@ -946,7 +943,7 @@ address {
     opacity: 0;
     min-width: 274px;
     z-index: 1;
-    @include transition(all 0.3s);
+    transition: all 0.3s;
     @include translateY(-10px);
   }
   .menu-item--dropdown-item a {

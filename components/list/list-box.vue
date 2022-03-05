@@ -149,7 +149,7 @@ export default {
     margin-bottom: 40px;
     position: relative;
     top: 0px;
-    @include transition(opacity 0.35s, top 0.3s);
+    transition: opacity 0.35s, top 0.3s;
     :last-child {
       margin-bottom: 0;
     }

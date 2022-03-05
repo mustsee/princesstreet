@@ -247,7 +247,7 @@ export default {
   position: relative;
 
   top: 0px;
-  @include transition(opacity 0.35s, top 0.3s);
+  transition: opacity 0.35s, top 0.3s;
 
   // redraw issue https://stackoverflow.com/a/27971913/1578100
   -webkit-transform: translateZ(0);
@@ -280,7 +280,7 @@ export default {
     width: auto;
     background: rgba(0, 0, 0, 0.1);
     //@include translateY(-50%);
-    @include transition(opacity 0.35s);
+    transition: opacity 0.35s;
     span {
       position: absolute;
       top: 50%;

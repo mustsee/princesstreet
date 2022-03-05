@@ -148,7 +148,7 @@ img {
   width: 100%;
   opacity: 1;
   display: block;
-  @include transition(opacity 0.4s);
+  transition: opacity 0.4s;
   &.image-loading {
     opacity: 0;
     visibility: hidden;

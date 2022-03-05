@@ -26,7 +26,9 @@ $errorColor: red;
   -o-transform: rotate($value);
   transform: rotate($value);
 }
-@mixin transition($properties...) {
+
+// This mixin and his properties are buggy : build don't work
+/* @mixin transition($properties...) {
   -webkit-transition: $properties;
   -moz-transition: $properties;
   -ms-transition: $properties;
@@ -35,8 +37,8 @@ $errorColor: red;
   //CoreAnimation issue on safari https://stackoverflow.com/a/24469750/1578100
   -webkit-transform-style: preserve-3d;
   -webkit-transform: translate3D(0, 0);
-  -webkit-backface-visibility: hidden;
-}
+  -webkit-backface-visibility: hidden; 
+}*/
 @mixin transition-duration($value) {
   -webkit-transition-duration: $value;
   -moz-transition-duration: $value;

@@ -96,7 +96,7 @@ export default {
     text-align: center;
     width: auto;
     background: rgba(0, 0, 0, 0.1);
-    @include transition(opacity 0.35s);
+    transition: opacity 0.35s;
     span {
       position: absolute;
       top: 50%;
