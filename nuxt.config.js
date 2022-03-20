@@ -2,6 +2,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
+  base: "/princesstreet/",
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "test",
