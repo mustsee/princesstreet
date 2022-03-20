@@ -20,11 +20,13 @@ export default {
       /* const url =
         "https://mustsee.github.io/princesstreet/" + `/data${fullPath}.json`; */
 
-      //const url = `${process.env.baseUrl}/data${fullPath}.json`;
+      console.log("PP", process.env.baseUrl);
 
-      //const { data } = await axios.get(url);
+      const url = `${process.env.baseUrl}/data${fullPath}.json`;
 
-      const data = await import(`@/static/data${fullPath}.json`);
+      const { data } = await axios.get(url);
+
+      //const data = await import(`@/static/data${fullPath}.json`);
 
       //wait if still fading
       if (fading) await fading;

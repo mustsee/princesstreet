@@ -47,4 +47,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  env: {
+    //fixed axios ECONNREFUSED for static local json
+    baseUrl: process.env.BASE_URL || "http://localhost:3000",
+  },
 };
