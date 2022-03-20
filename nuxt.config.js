@@ -1,5 +1,3 @@
-console.log("peBURL", process.env.BASE_URL);
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -39,11 +37,10 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
+  /*   router: {
+    base: "/princesstreet/",
+  }, */
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
-  env: {
-    //fixed axios ECONNREFUSED for static local json
-    //baseUrl: process.env.BASE_URL || "http://localhost:3000",
-  },
 };
