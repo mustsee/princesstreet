@@ -15,14 +15,14 @@ export default {
         fullPath = path.substr(0, fullPath.length - 1);
 
       // TODO: Mettre ça d'équerre
-      //const url = "http://localhost:3000" + `/data${fullPath}.json`;
+      const url = `/data${fullPath}.json`;
 
       /* const url =
         "https://mustsee.github.io/princesstreet/" + `/data${fullPath}.json`; */
 
       console.log("PP", process.env.baseUrl);
 
-      const url = `${process.env.baseUrl}/data${fullPath}.json`;
+      //const url = `${process.env.baseUrl}/data${fullPath}.json`;
 
       const { data } = await axios.get(url);
 
