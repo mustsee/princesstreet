@@ -1,3 +1,5 @@
+console.log("peBURL", process.env.BASE_URL);
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -17,6 +19,11 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
+  loading: {
+    color: "#FE6601",
+    height: "4px",
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/style.scss"],
 
@@ -32,10 +39,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
-  router: {
-    base: "/princesstreet/",
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  env: {
+    //fixed axios ECONNREFUSED for static local json
+    //baseUrl: process.env.BASE_URL || "http://localhost:3000",
+  },
 };

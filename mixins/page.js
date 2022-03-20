@@ -20,7 +20,7 @@ export default {
       const url =
         "https://mustsee.github.io/princesstreet/" + `/data${fullPath}.json`;
 
-      // const url = `${process.env.baseUrl}/data${fullPath}.json`;
+      //const url = `${process.env.baseUrl}/data${fullPath}.json`;
 
       const { data } = await axios.get(url);
 
