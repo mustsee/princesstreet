@@ -4,7 +4,7 @@
       <nuxt-link to="/" :title="$store.state.company.name">
         <figure>
           <img
-            src="/images/assets/logo.svg"
+            src="/princesstreet/images/assets/logo.svg"
             :alt="$store.state.company.name"
             data-pin-nopin="true"
           />
