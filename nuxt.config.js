@@ -41,6 +41,10 @@ export default {
     base: "/princesstreet/",
   }, */
 
+  generate: {
+    fallback: true, // Uses '404.html' instead of the default '200.html'
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 };
