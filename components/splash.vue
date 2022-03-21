@@ -2,8 +2,8 @@
   <div id="splash" v-show="loading">
     <div class="splash-logo">
       <img
-        src="/images/assets/logo.svg"
-        alt="Nusa Penida"
+        src="/princesstreet/images/assets/logo.png"
+        alt="Princes Street Hostel logo"
         data-pin-nopin="true"
       />
       <h1>{{ company.name }}</h1>
@@ -63,7 +63,7 @@ $bgColor: #fff;
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 150px;
+  max-width: 200px;
   color: $bgColor;
 
   @include translateY(-50%);
@@ -71,7 +71,7 @@ $bgColor: #fff;
   @include animation(fadeInLogo 0.8s ease-out);
 }
 .splash-logo img {
-  max-width: 150px;
+  max-width: 200px;
 }
 @-webkit-keyframes fadeInLogo {
   from {

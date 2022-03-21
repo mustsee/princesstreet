@@ -1,32 +1,23 @@
 {
-  "title": "Nusa Penida Tour Guide",
-  "desc": "Totalling some 200 square kilometres, Nusa Penida is much larger than the better known Nusa Lembongan. However, tourist infrastructure is very limited here but growing fast.\n\nDue to a lack of natural fresh water, little is grown or produced on Nusa Penida, and even some basic foodstuffs come in by boat. Visitors should therefore expect higher prices than in Bali, and not bank on any tourism-related luxury items being available for purchase here.",
-  "metaImage": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fcrystal-bay-beach-2.jpg?alt=media&token=be8ffb8f-17e9-4b85-bf4a-9dff7f38348a",
+  "title": "PRINCES STREET OPENING",
+  "desc": "We are changing with Edinburgh, from Old town to New Town we still are the first hostel ever in Edinburgh and enjoyed a thorough refurbishment in the last few years.\n\nWe are now ready to reopen to the world visiting the Scottish Capital and looking for a comfortable and cosy place were to rest their head.\n\nThe most central tourist hostel in the Scottish capital. The Princes Street Hostel is right off the Waverley train station and the iconic Balmoral building. As we are overlooking North Bridge which let you go from Old to New town in a brisk.",
+  "metaImage": "https://dl.airtable.com/.attachments/733e07888e5f0c0a557809bc7b96e221/4853fcde/b1-1-1024x844.webp",
   "body": [
     {
       "listBox": [
         {
           "slides": [
             {
-              "name": "Peguyangan Water Spring",
-              "img": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fpeguyangan-waterfall-3.jpg?alt=media&token=82e2b880-f354-468e-a857-f341a108e239",
-              "credit": "@wanderersandwarriors"
+              "name": "Welcome to Edinburgh !",
+              "img": "https://dl.airtable.com/.attachments/1065e17ea1637dfd9c71dc20b4f9edb2/bdc96e1c/b1-1-1000x600.jpg"
             },
             {
-              "name": "Kelingking Beach",
-              "img": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fklingking-beach.jpg?alt=media&token=0608592e-0bca-43ce-b535-857065b67ef5"
+              "name": "View from the Calton Hill",
+              "img": "https://dl.airtable.com/.attachments/18ffedba52dfb9ff4518ca5d10c8c31c/040096af/Host2-1200x735.jpg"
             },
             {
-              "name": "Angel Billabong",
-              "img": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fangel-billabong.jpg?alt=media&token=9d4b2f99-3667-464e-9d6a-5c4b6850bf84"
-            },
-            {
-              "name": "Broken Beach",
-              "img": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fbroken-beach.jpg?alt=media&token=d5c744e6-9fd4-4df0-8552-03659675f6d7"
-            },
-            {
-              "name": "Crystal Bay Beach",
-              "img": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/slides%2Fcrystal-bay-beach-2.jpg?alt=media&token=be8ffb8f-17e9-4b85-bf4a-9dff7f38348a"
+              "name": "Edinburgh city !",
+              "img": "https://dl.airtable.com/.attachments/5b0eff059ca31cf25eb933c04fc67716/dc54c30d/Host1-1200x735.jpg"
             }
           ]
         }

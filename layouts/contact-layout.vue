@@ -18,3 +18,10 @@ export default {
   mixins: [layout],
 };
 </script>
+
+<style lang="scss">
+/* #wrapper {
+  max-width: 1480px;
+  margin: auto;
+} */
+</style>
