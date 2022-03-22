@@ -67,7 +67,7 @@ export default {
   components: { LazyImage },
   data() {
     return {
-      placeHolder: "/images/assets/3x2-placeholder.svg",
+      placeHolder: "/princesstreet" + "/images/assets/3x2-placeholder.svg",
       slick: null,
       sliding: false,
     };
@@ -159,9 +159,11 @@ export default {
 .slick-next:hover {
   background-color: rgba(52, 44, 44, 0.6);
 }
+
+// TODO: remove prefix when CNAME
 .slick-prev {
   left: 0px;
-  background-image: url("/images/assets/icon-expand-white.svg");
+  background-image: url("/princesstreet/images/assets/icon-expand-white.svg");
   background-size: cover;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -171,7 +173,7 @@ export default {
 }
 .slick-next {
   right: 0px;
-  background-image: url("/images/assets/icon-expand-white.svg");
+  background-image: url("/princesstreet/images/assets/icon-expand-white.svg");
   background-size: cover;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);

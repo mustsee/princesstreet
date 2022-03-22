@@ -114,7 +114,10 @@ export default {
   loadImage,
   computed: {
     placeHolder() {
-      return `/images/assets/${this.square ? "2x2" : "3x2"}-placeholder.svg`;
+      return (
+        this.$router.options.base +
+        `/images/assets/${this.square ? "2x2" : "3x2"}-placeholder.svg`
+      );
     },
   },
   methods: {

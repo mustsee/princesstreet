@@ -41,19 +41,10 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
-  /*   router: {
-    base: "/princesstreet/",
-  }, */
-
   generate: {
     fallback: true, // Uses '404.html' instead of the default '200.html'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
-  env: {
-    //fixed axios ECONNREFUSED for static local json
-    baseUrl: process.env.BASE_URL || "http://localhost:3000",
-  },
 };

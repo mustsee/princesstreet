@@ -4,7 +4,7 @@
       <nuxt-link to="/" :title="$store.state.company.name">
         <figure>
           <img
-            src="/princesstreet/images/assets/logo.png"
+            :src="routerBase + 'images/assets/logo.png'"
             :alt="$store.state.company.name"
             data-pin-nopin="true"
           />
@@ -52,6 +52,11 @@
 <script>
 export default {
   props: ["list"],
+  computed: {
+    routerBase() {
+      return this.$router.options.base;
+    },
+  },
   methods: {
     getActiveClass(item) {
       if (item.submenu) {

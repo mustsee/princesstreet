@@ -1,5 +1,4 @@
 import { mapState } from "vuex";
-import axios from "axios";
 import utils from "@/assets/js/utils/utils";
 
 let fading;
@@ -13,18 +12,6 @@ export default {
       let fullPath = route.fullPath == "/" ? "/index" : route.fullPath;
       if (fullPath.slice(-1) == "/")
         fullPath = path.substr(0, fullPath.length - 1);
-
-      // TODO: Mettre ça d'équerre
-      //const url = `http://localhost:3000/data${fullPath}.json`;
-
-      /* const url =
-        "https://mustsee.github.io/princesstreet/" + `/data${fullPath}.json`; */
-
-      console.log("PP", process.env.baseUrl);
-
-      //const url = `${process.env.baseUrl}/data${fullPath}.json`;
-
-      //const { data } = await axios.get(url);
 
       const data = await import(`@/static/data${fullPath}.json`);
 

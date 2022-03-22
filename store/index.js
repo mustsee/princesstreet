@@ -3,13 +3,13 @@
 export const state = () => ({
   GA_CODE: "YOUR_GA_CODE",
   GOOGLE_KEY: "AIzaSyAF7_hvatl9Wrn2mRD_xi1wzHTfktUp5Jg", // REPLACE_WITH_YOUR_GOOGLE_KEY
-  WEB_ADDRESS: "YOUR_WEB_ADDRESS",
+  WEB_ADDRESS: "https://www.princesstreethostel.com/",
   company: {
-    name: "Nusa Penida Tourism Board",
-    address: "Klungkung Regency",
-    address2: "Nusa Penida, Bali - Indonesia",
-    email: "mail@company.com",
-    phone: "+62 8888888",
+    name: "Princes Street Hostel",
+    address: "5 West Register Street",
+    address2: "Edinburgh EH2 2AA - United Kingdom",
+    email: "hello@princesstreethostel.com",
+    phone: "+44 131 556 6894",
   },
   pageData: {},
   loading: true,

@@ -80,7 +80,7 @@
       >
     </div>
     <a href="#" class="btn-back-top" title="back to top"
-      ><img src="/images/assets/icon-expand-white.svg"
+      ><img :src="routerBase + '/images/assets/icon-expand-white.svg'"
     /></a>
   </footer>
 </template>
@@ -103,6 +103,9 @@ export default {
   },
   computed: {
     ...mapState(["company"]),
+    routerBase() {
+      return this.$router.options.base;
+    },
   },
   methods: {
     onScroll() {

@@ -108,9 +108,10 @@ export default {
     googleMap,
     googleReview,
   },
+  // TODO : Base router
   data() {
     return {
-      placeHolder: "/images/assets/3x2-placeholder.svg",
+      placeHolder: "/princesstreet" + "/images/assets/3x2-placeholder.svg",
     };
   },
   mounted() {

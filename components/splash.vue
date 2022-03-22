@@ -2,7 +2,7 @@
   <div id="splash" v-show="loading">
     <div class="splash-logo">
       <img
-        src="/princesstreet/images/assets/logo.png"
+        :src="routerBase + 'images/assets/logo.png'"
         alt="Princes Street Hostel logo"
         data-pin-nopin="true"
       />
@@ -16,6 +16,9 @@ import utils from "@/assets/js/utils/utils";
 export default {
   computed: {
     ...mapState(["loading", "company"]),
+    routerBase() {
+      return this.$router.options.base;
+    },
   } /*,
     watch: {
         "loading": function (newValue, oldValue) {
