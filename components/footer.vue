@@ -41,11 +41,17 @@
         >
       </li>
       <li>
+        <nuxt-link to="/rooms" :class="getActiveClass('rooms')" title="Rooms"
+          >Rooms</nuxt-link
+        >
+      </li>
+      <li>
+        <!-- TODO: terms class doesn't exists yet -->
         <nuxt-link
-          to="/destinations"
-          :class="getActiveClass('destinations')"
-          title="Destinations"
-          >Destinations</nuxt-link
+          to="/terms-and-conditions"
+          :class="getActiveClass('terms-and-conditions')"
+          title="Terms and Conditions"
+          >Terms and Conditions</nuxt-link
         >
       </li>
       <li>
@@ -66,15 +72,15 @@
       </address>
     </div>
     <div class="powered">
-      Powered by
+      <!-- Powered by
       <a
         href="https://janumedia.com/"
         target="_blank"
         title="Janumedia"
         rel="noopener"
         >JanuMedia</a
-      >
-      with
+      > -->
+      Made with
       <a href="http://nuxtjs.org/" target="_blank" title="NuxtJS" rel="noopener"
         >NuxtJS</a
       >

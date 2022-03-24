@@ -54,15 +54,15 @@
           "name": "Rooms & Facilities",
           "img": "https://dl.airtable.com/.attachments/4985968e94926f355c33f84524a53218/72c579ba/rooms-and-facilities-princes-street-hostel.jpg",
           "desc": "From double rooms to big dorms, without forgetting a female dorm, you'll find the accomodation you need at Princes Street Hostel !\n\nEach door is protected by a card system, all beds features plugs and USB plugs. Lockers are available, just bring a padlock !",
-          "btnLabel": "Book now",
-          "url": "/destinations/angel-billabong"
+          "btnLabel": "More details",
+          "url": "/rooms"
         },
         {
           "name": "Groups",
           "img": "https://dl.airtable.com/.attachments/c1a5fe3cb95c506c81c60c9564878ddf/ce2535c5/groups-princes-street-hostel.jpg",
           "desc": "We welcome groups for each occasion !\n\nDo not hesitate to reach out to us, click on the button below and let yourself be carried away by our special group form !",
           "btnLabel": "Contact us",
-          "url": "/destinations/broken-beach"
+          "url": "/link-to-form"
         },
         {
           "name": "Tours and Activities",
