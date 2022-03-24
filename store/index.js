@@ -2,7 +2,7 @@
 
 export const state = () => ({
   GA_CODE: "YOUR_GA_CODE",
-  GOOGLE_KEY: "AIzaSyAF7_hvatl9Wrn2mRD_xi1wzHTfktUp5Jg", // REPLACE_WITH_YOUR_GOOGLE_KEY
+  GOOGLE_KEY: "",
   WEB_ADDRESS: "https://www.princesstreethostel.com/",
   company: {
     name: "Princes Street Hostel",

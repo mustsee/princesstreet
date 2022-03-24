@@ -124,14 +124,14 @@
     {
       "name": "Google-Map",
       "googleMap": {
-        "lat": -8.733426,
-        "long": 115.4470798
+        "lat": 55.953629537991795,
+        "long": -3.190308129447752
       }
     },
     {
       "name": "Google-Review",
       "googleReview": {
-        "placeID": "ChIJPeFviSBH0i0R0h1hnHjxmFw"
+        "placeID": "ChIJ_SVfZmPHh0gREqcwzgqtAo4"
       }
     },
     {

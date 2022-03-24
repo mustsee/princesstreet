@@ -18,14 +18,14 @@
         },
         {
           "googleMap": {
-            "lat": -8.7324634,
-            "long": 115.449011
+            "lat": 55.953629537991795,
+            "long": -3.190308129447752
           }
         },
         {
           "name": "Reviews",
           "googleReview": {
-            "placeID": "ChIJdX5lGBVu0i0RQ7h9o4ZPdlU"
+            "placeID": "ChIJ_SVfZmPHh0gREqcwzgqtAo4"
           }
         }
       ]

@@ -18,7 +18,9 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/princesstreet/favicon.ico" }, // TODO: Remove prefix princesstreet when needed !
+    ],
   },
 
   loading: {

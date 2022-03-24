@@ -101,6 +101,8 @@ export default {
       let totalWords = text ? text.split(" ").length : 1;
       // average reading speed 130 words per minute
       let delay = (totalWords / 130) * 60 * 1000;
+      if (delay < 3000) delay = 3000;
+      else if (delay > 10000) delay = 10000;
       this.intervalID = setTimeout(() => {
         $("#google-review > div:first")
           .fadeOut(1000)
