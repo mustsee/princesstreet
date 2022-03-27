@@ -33,7 +33,7 @@ export default {
   },
   head() {
     return {
-      title: this.removeHTMLTags(this.pageData.title),
+      title: this.removeHTMLTags(this.pageData.headTitle),
       meta: [
         {
           name: "description",
@@ -140,7 +140,7 @@ export default {
     next();
   },
   beforeRouteLeave: function (to, from, next) {
-    this.$store.dispatch("setPageData", { ...this.pageData, title: "Loading" });
+    this.$store.dispatch("setPageData", { ...this.pageData });
     this.fadeOut(to, from, next);
   },
   //watch on nextLink change,

@@ -16,6 +16,15 @@
     >
       <div v-if="item.name" class="preheader" style="margin-top: 40px">
         <h2>{{ item.name }}</h2>
+        <div v-if="item.list && item.list.length">
+          <p
+            v-for="desc in item.list"
+            :key="desc"
+            style="text-align: left; letter-spacing: 0; color: #605d5d"
+          >
+            {{ desc }}
+          </p>
+        </div>
       </div>
       <chess-grid v-if="item.chessGrid" :list="item.chessGrid" />
       <tiles-grid

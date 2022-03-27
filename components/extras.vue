@@ -12,12 +12,12 @@
       <div v-if="item.googleMap">
         <google-map :lat="item.googleMap.lat" :long="item.googleMap.long" />
         <br />
-        <div class="text-center">
+        <!-- <div class="text-center">
           <Button
             :url="`https://www.google.com/maps/dir//${item.googleMap.lat},${item.googleMap.long}`"
             label="Get Direction"
           />
-        </div>
+        </div> -->
       </div>
       <div v-if="item.googleReview">
         <google-review :placeID="item.googleReview.placeID" />

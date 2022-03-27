@@ -1,4 +1,5 @@
 {
+  "headTitle": "Princes Street Hostel - Rooms",
   "title": "Here you can check in more details our numerous rooms !",
   "desc": "Our hostel has 4 levels. Each rooms has the following amenities... GLOBAL/MAIN description",
   "metaImage": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/klingking-beach-mid-sq.jpg?alt=media&token=fe9953a8-95d2-4c70-97c8-ae8df6816bdb",
@@ -33,7 +34,7 @@
   ],
   "extras": [
     {
-      "name": "Review",
+      "name": "Google Maps Reviews",
       "googleReview": {
         "placeID": "ChIJ_SVfZmPHh0gREqcwzgqtAo4"
       }
