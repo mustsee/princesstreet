@@ -1,5 +1,5 @@
 <template>
-  <div class="columns-1 contact">
+  <div class="contact">
     <!--  <div class="contact-info">
       <h1>{{ company.name }}</h1>
       <h2>CONTACT US</h2>

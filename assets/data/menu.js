@@ -13,6 +13,10 @@ module.exports = {
         { name: "Kelingking Beach", path: "/destinations/kelingking-beach" },
       ], */
     },
+    {
+      name: "Contact",
+      path: "/contact",
+    },
     /*     {
       name: "Hotels",
       path: "/hotels",
@@ -21,9 +25,5 @@ module.exports = {
       name: "Components Guide",
       path: "/guides",
     }, */
-    {
-      name: "Contact",
-      path: "/contact",
-    },
   ],
 };
