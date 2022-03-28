@@ -21,9 +21,9 @@ module.exports = {
       name: "Components Guide",
       path: "/guides",
     }, */
-    /*     {
+    {
       name: "Contact",
       path: "/contact",
-    }, */
+    },
   ],
 };
