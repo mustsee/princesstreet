@@ -58,14 +58,14 @@
       </address>
     </div> -->
     <!--  <div class="contact-form"> -->
-    <!-- <iframe
+    <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?embedded=true"
       width="100%"
       height="1100px"
       frameborder="0"
       marginheight="0"
       marginwidth="0"
-      >Chargement…</iframe -->
+      >Chargement…</iframe
     >
     <!-- </div> -->
   </div>
