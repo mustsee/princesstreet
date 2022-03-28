@@ -6,7 +6,6 @@
         :data-src="src"
         :alt="title"
         data-pin-nopin="true"
-        crossorigin=""
       />
       />
     </div>
