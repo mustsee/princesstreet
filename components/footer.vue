@@ -53,6 +53,14 @@
         >
       </li>
       <li>
+        <nuxt-link
+          to="/contact"
+          :class="getActiveClass('contact')"
+          title="contact"
+          >Contact</nuxt-link
+        >
+      </li>
+      <li>
         <!-- TODO: terms class doesn't exists yet -->
         <nuxt-link
           to="/terms-and-conditions"
@@ -61,14 +69,6 @@
           >Terms and Conditions</nuxt-link
         >
       </li>
-      <!--  <li>
-        <nuxt-link
-          to="/contact"
-          :class="getActiveClass('contact')"
-          title="contact"
-          >Contact</nuxt-link
-        >
-      </li> -->
     </ul>
     <div>
       &copy; {{ fullYear }} {{ company.name }} All Rights Reserved<br />
