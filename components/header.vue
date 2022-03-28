@@ -28,7 +28,16 @@
           (item.mobileOnly ? ' menu-item--responsive' : '')
         "
       >
+        <a
+          v-if="item.outOfPSH"
+          target="_blank"
+          :class="getActiveClass(item)"
+          :title="item.name"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link"
+          >{{ item.name }}</a
+        >
         <nuxt-link
+          v-else
           :to="item.path"
           :title="item.name"
           :class="getActiveClass(item)"

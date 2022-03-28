@@ -14,8 +14,9 @@ module.exports = {
       ], */
     },
     {
+      outOfPSH: true, // Outside Of Princes Street Hostel
       name: "Contact",
-      path: "/contact",
+      path: "https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link",
     },
     /*     {
       name: "Hotels",
