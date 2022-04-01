@@ -7,7 +7,6 @@
         :alt="title"
         data-pin-nopin="true"
       />
-      />
     </div>
   </div>
 </template>

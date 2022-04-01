@@ -12,12 +12,12 @@
       <div v-if="item.googleMap">
         <google-map :lat="item.googleMap.lat" :long="item.googleMap.long" />
         <br />
-        <!-- <div class="text-center">
+        <div class="text-center">
           <Button
-            :url="`https://www.google.com/maps/dir//${item.googleMap.lat},${item.googleMap.long}`"
+            :url="`https://www.google.com/maps/dir/?api=1&destination=princes%20street%20hostel&destination_place_id=ChIJ_SVfZmPHh0gREqcwzgqtAo4`"
             label="Get Direction"
           />
-        </div> -->
+        </div>
       </div>
       <div v-if="item.googleReview">
         <google-review :placeID="item.googleReview.placeID" />

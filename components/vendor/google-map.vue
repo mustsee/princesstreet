@@ -25,6 +25,13 @@ export default {
   },
   methods: {
     googleMapCallback() {
+      let infowindow = new google.maps.InfoWindow({
+        content: `<b>Princes Street Hostel</b>
+          5 West Register Street
+          Edinburgh EH2 2AA
+          <a href="https://www.google.com/maps/search/?api=1&query=princes%20street%20hostel&query_place_id=ChIJ_SVfZmPHh0gREqcwzgqtAo4" target="_blank">View on Google Maps</a>`,
+      });
+
       let map = new google.maps.Map(this.$el, {
         zoom: 16,
         center: { lat: this.lat, lng: this.long },
@@ -70,6 +77,14 @@ export default {
             featureType: "poi",
             elementType: "labels.text.fill",
             stylers: [{ color: "#93817c" }],
+          },
+          {
+            featureType: "poi.business",
+            stylers: [
+              {
+                visibility: "off",
+              },
+            ],
           },
           {
             featureType: "poi.park",
@@ -154,6 +169,8 @@ export default {
         position: { lat: this.lat, lng: this.long },
         map: map,
       });
+
+      infowindow.open(map, marker);
     },
   },
   mounted() {
