@@ -23,8 +23,15 @@
           "btnLabel": "Book now"
         },
         {
-          "name": "Mixed dorms 4, 6, 8, 9, 10 or 12 beds",
+          "name": "Small dorms : 4, 6 and 8 beds",
           "img": "https://dl.airtable.com/.attachments/4d7a4557de064c07ac127c1fa3912620/598a0979/mixed-dorms-princes-street-hostel.jpg",
+          "desc": "A description",
+          "url": "https://beds24.com/booking2.php?propid=150425",
+          "btnLabel": "Book now"
+        },
+        {
+          "name": "Big dorms : 9, 10 and 12 beds",
+          "img": "https://dl.airtable.com/.attachments/eac553f74eca807eeb73d7e55b643564/edd9a9a7/PrincesStreetBackpackers83.jpg",
           "desc": "A description",
           "url": "https://beds24.com/booking2.php?propid=150425",
           "btnLabel": "Book now"
