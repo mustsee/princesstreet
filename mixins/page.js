@@ -62,7 +62,7 @@ export default {
         },
         { name: "twitter:image", content: this.pageData.metaImage },
       ],
-      //script: [{ innerHTML: this.googleAnalytic(), body: true }],
+      script: [{ innerHTML: this.googleAnalytic(), body: true }],
     };
   },
   computed: {
