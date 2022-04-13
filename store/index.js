@@ -1,7 +1,7 @@
 //import Vuex from "vuex";
 
 export const state = () => ({
-  GA_CODE: "YOUR_GA_CODE",
+  GA_CODE: process.env.GA_CODE,
   GOOGLE_KEY: process.env.GOOGLE_KEY,
   WEB_ADDRESS: "https://www.princesstreethostel.com/",
   company: {
