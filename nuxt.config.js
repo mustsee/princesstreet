@@ -33,6 +33,14 @@ export default {
     link: [
       { rel: "icon", type: "image/x-icon", href: "/princesstreet/favicon.ico" }, // TODO: Remove prefix princesstreet when needed !
     ],
+    script: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-F7K40QQ8VK",
+      },
+      {
+        src: "js/ga.js",
+      },
+    ],
   },
 
   loading: {
@@ -50,7 +58,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/google-analytics"],
+  //buildModules: ["@nuxtjs/google-analytics"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
