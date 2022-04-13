@@ -6,6 +6,13 @@ export default {
     base: "/princesstreet/",
   },
 
+  googleAnalytics: {
+    asyncID: async () => {
+      console.log("googleAnalytics ON");
+      return process.env.GA_CODE;
+    },
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "test",
@@ -43,7 +50,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ["@nuxtjs/google-analytics"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

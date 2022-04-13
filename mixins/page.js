@@ -62,7 +62,7 @@ export default {
         },
         { name: "twitter:image", content: this.pageData.metaImage },
       ],
-      script: [{ innerHTML: this.googleAnalytic(), body: true }],
+      /* script: [{ innerHTML: this.googleAnalytic(), body: true }], */
     };
   },
   computed: {
@@ -81,9 +81,9 @@ export default {
       if (!s) return "";
       return s.replace(/<(.|\n)*?>/g, "");
     },
-    googleAnalytic() {
+    /*     googleAnalytic() {
       return `(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', '${this.GA_CODE}', 'auto');ga('send', 'pageview');`;
-    },
+    }, */
     fadeOut(to, from, next) {
       fading = utils
         .fadeOut(document.querySelector("#footer"), true)
