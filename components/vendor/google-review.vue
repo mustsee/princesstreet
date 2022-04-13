@@ -29,8 +29,8 @@
           </li>
         </ul>
       </div>
-      <span class="google-review__author">{{ item.author_name }}</span>
-      <span class="google-review-sep">, </span><br />
+      <span class="google-review__author">{{ item.author_name }},</span>
+      <!-- <span class="google-review-sep">, </span> --><br />
       <span class="google-review__date">{{ item.reviewDate }}</span>
     </div>
   </div>
