@@ -7,10 +7,7 @@ export default {
   },
 
   googleAnalytics: {
-    asyncID: async () => {
-      console.log("googleAnalytics ON");
-      return process.env.GA_CODE;
-    },
+    //id: process.env.GA_CODE,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -36,6 +33,7 @@ export default {
     script: [
       {
         src: "https://www.googletagmanager.com/gtag/js?id=G-F7K40QQ8VK",
+        async: true,
       },
       {
         src: "js/ga.js",

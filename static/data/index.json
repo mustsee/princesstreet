@@ -1,7 +1,7 @@
 {
   "headTitle": "Princes Street Hostel - Home",
   "title": "Princes Street Hostel opening",
-  "desc": "We are changing with Edinburgh, from Old town to New Town we still are the first hostel ever in Edinburgh and enjoyed a thorough refurbishment in the last few years.\n\nWe are now ready to reopen to the world visiting the Scottish Capital and looking for a comfortable and cosy place were to rest their head.\n\nThe most central tourist hostel in the Scottish capital. The Princes Street Hostel is right off the Waverley train station and the iconic Balmoral building. As we are overlooking North Bridge which let you go from Old to New town in a brisk.",
+  "desc": "Much like our city, we are ever evolving. Since the 1980s, whether in Old Town or New Town we remain the first hostel Edinburgh has ever known - with a few refurbishments along the way.\n\nAfter a complete upgrade of facilities over the past 2 years we are now able to reopen.",
   "metaImage": "https://dl.airtable.com/.attachments/1065e17ea1637dfd9c71dc20b4f9edb2/bdc96e1c/b1-1-1000x600.jpg",
   "body": [
     {
@@ -54,21 +54,21 @@
         {
           "name": "Rooms & Facilities",
           "img": "https://dl.airtable.com/.attachments/4985968e94926f355c33f84524a53218/72c579ba/rooms-and-facilities-princes-street-hostel.jpg",
-          "desc": "From double rooms to big dorms, without forgetting a female dorm, you'll find the accomodation you need at Princes Street Hostel !\n\nEach door is protected by a card system, all beds features plugs and USB plugs. Lockers are available, just bring a padlock !",
+          "desc": "From cosy double rooms to large dorm bunks, including a female only room, we provide accomodation to fit all and any of your preferences.",
           "btnLabel": "More details",
           "url": "/rooms"
         },
         {
           "name": "Groups",
           "img": "https://dl.airtable.com/.attachments/3e2626527579ddae071b39539f49c15f/3699cbd4/pexels-belle-co-10004451.jpg",
-          "desc": "We welcome groups for each occasion !\n\nDo not hesitate to reach out to us, click on the button below and let yourself be carried away by our form !",
+          "desc": "We welcome groups for any occasion !\n\nPlease reach out to us by clicking the button below and filling out our form.",
           "btnLabel": "Contact us",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link"
         },
         {
           "name": "Tours and Activities",
           "img": "https://dl.airtable.com/.attachments/40a0ccf125a6ffd6155e8fe4a43104f7/0a25d9c9/tours-and-activities-princes-street-hostel.jpg",
-          "desc": "Discover the city and it's surroundings : Castles, Lochs, Whiskies and Gins, Harry Potter, etc.\n\nDon't miss an opportunity to have some fun !! :)",
+          "desc": "Discover Edinbugh and the cities around it ! Book an experience with our partners to discover the castles, lochs, whiskies and more. Without forgetting the cities magical Hary Potter history.",
           "btnLabel": "Partner website",
           "url": "https://haystackhostel.tourdesk.scot/Tour"
         }
