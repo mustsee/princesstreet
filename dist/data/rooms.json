@@ -1,7 +1,7 @@
 {
   "headTitle": "Princes Street Hostel - Rooms",
-  "title": "Here you can check in more details our numerous rooms !",
-  "desc": "Our hostel has 4 levels. Each rooms has the following amenities... GLOBAL/MAIN description",
+  "title": "Discover all the rooms that we have to offer !",
+  "desc": "Our hostel is divided into 4 levels. Each of our rooms are provided with the following amenities.",
   "metaImage": "https://firebasestorage.googleapis.com/v0/b/nuxt-web-template.appspot.com/o/klingking-beach-mid-sq.jpg?alt=media&token=fe9953a8-95d2-4c70-97c8-ae8df6816bdb",
   "body": [
     {
@@ -11,7 +11,7 @@
         {
           "name": "Private double rooms",
           "img": "https://dl.airtable.com/.attachments/429e5dbe94dcfbdd1d59605f53d00323/571bdbc8/private-double-rooms-princes-street-hostel.jpg",
-          "desc": "A description",
+          "desc": "Bright private rooms, both doubles and dorm style singles. These are perfect for couples, friends or anyone who prefers privacy while still enjoying the hostel environment. All private rooms are fitted with a bedside table, a lamp and an armchair. The bathrooms remained shared.",
           "url": "https://beds24.com/booking2.php?propid=150425",
           "btnLabel": "Book now"
         },
