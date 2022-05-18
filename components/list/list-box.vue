@@ -111,7 +111,7 @@ export default {
   // TODO : Base router
   data() {
     return {
-      placeHolder: "/princesstreet" + "/images/assets/3x2-placeholder.svg",
+      placeHolder: "/images/assets/3x2-placeholder.svg",
     };
   },
   mounted() {

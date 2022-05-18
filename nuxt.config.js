@@ -2,9 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
-/*   router: {
-    base: "/princesstreet/",
-  }, */
+  router: {
+    /* base: "/princesstreet/", */
+    base: ""
+  },
 
   googleAnalytics: {
     //id: process.env.GA_CODE,
@@ -28,7 +29,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/princesstreet/favicon.ico" }, // TODO: Remove prefix princesstreet when needed !
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }, // TODO: Remove prefix princesstreet when needed !
     ],
     script: [
       {

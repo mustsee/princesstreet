@@ -23,7 +23,7 @@ export default {
         bottom: true,
       },
     ],
-    script: [{ src: "/princesstreet/js/app.js", body: true }],
+    script: [{ src: "/js/app.js", body: true }],
   },
   data() {
     return {
