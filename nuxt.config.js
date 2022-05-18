@@ -2,9 +2,9 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
-  router: {
+/*   router: {
     base: "/princesstreet/",
-  },
+  }, */
 
   googleAnalytics: {
     //id: process.env.GA_CODE,
