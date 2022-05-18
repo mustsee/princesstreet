@@ -115,7 +115,6 @@ export default {
   computed: {
     placeHolder() {
       return (
-        this.$router.options.base +
         `/images/assets/${this.square ? "2x2" : "3x2"}-placeholder.svg`
       );
     },

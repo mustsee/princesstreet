@@ -103,7 +103,7 @@
       >
     </div>
     <a href="#" class="btn-back-top" title="back to top"
-      ><img :src="routerBase + '/images/assets/icon-expand-white.svg'"
+      ><img :src="'/images/assets/icon-expand-white.svg'"
     /></a>
   </footer>
 </template>
