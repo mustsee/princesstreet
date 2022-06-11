@@ -3,8 +3,8 @@ export default {
   target: "static",
 
   router: {
-    /* base: "/princesstreet/", */
-    base: ""
+    base: "/princesstreet/",
+    //base: ""
   },
 
   googleAnalytics: {
