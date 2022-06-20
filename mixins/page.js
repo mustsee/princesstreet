@@ -29,7 +29,7 @@ export default {
       console.error("ERROR", e.message);
     }
     store.dispatch("setLoading", false);
-    error({ statusCode: 404, message: "Page NOT found" });
+    error({ statusCode: 404 });
   },
   head() {
     return {
