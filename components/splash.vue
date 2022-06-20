@@ -12,20 +12,13 @@
 </template>
 <script>
 import { mapState } from "vuex";
-import utils from "@/assets/js/utils/utils";
 export default {
   computed: {
     ...mapState(["loading", "company"]),
     routerBase() {
       return this.$router.options.base;
     },
-  } /*,
-    watch: {
-        "loading": function (newValue, oldValue) {
-            if(newValue) utils.show(this.$el);
-            else utils.hide(this.$el)
-        }
-    }*/,
+  }
 };
 </script>
 <style lang="scss" scoped>

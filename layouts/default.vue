@@ -5,14 +5,14 @@
       <header-menu :list="list" />
       <div class="banner-info">
         <h1
-          v-show="!pageData.layout"
+          v-show="!pageData.layout && pageData.desc"
           class="quote"
           v-html="pageData.title"
         ></h1>
-        <div v-show="!pageData.layout">
+        <div v-show="!pageData.layout && pageData.desc">
           <p>{{ pageData.desc }}</p>
         </div>
-        <div class="action-button-wrapper" v-show="!pageData.layout">
+        <div class="action-button-wrapper" v-show="!pageData.layout && pageData.desc">
           <a href="https://beds24.com/booking2.php?propid=150425">
             <div class="action-button">
               <div>BOOK NOW</div>

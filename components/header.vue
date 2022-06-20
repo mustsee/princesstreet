@@ -59,6 +59,7 @@
   </header>
 </template>
 <script>
+
 export default {
   props: ["list"],
   computed: {

@@ -12,21 +12,21 @@
           "name": "Private Double rooms",
           "img": "https://dl.airtable.com/.attachments/429e5dbe94dcfbdd1d59605f53d00323/571bdbc8/private-double-rooms-princes-street-hostel.jpg",
           "desc": "Bright private rooms with double style beds. These are perfect for couples, friends or anyone who prefers privacy while still enjoying the hostel environment. All private rooms are fitted with a bedside table, a lamp and an armchair. The bathrooms remained shared.",
-          "url": "https://beds24.com/booking2.php?propid=150425",
+          "url": "https://beds24.com/booking2.php?roomid=333604",
           "btnLabel": "Book now"
         },
         {
           "name": "Small dorms",
           "img": "https://dl.airtable.com/.attachments/4d7a4557de064c07ac127c1fa3912620/598a0979/mixed-dorms-princes-street-hostel.jpg",
           "desc": "Bright 4 to 6 bed rooms for individuals, small groups and families. These rooms offer more privacy thanks to their reduced size. All the beds feature a double wall socket with USB ports. We are also able to lend a personal reading light which are retrievable at reception. Top bunk beds also feature their own personal basket where you can tuck away your belongings for the night. Te bed linen are fresh and evenly ironed! Some of our smaller dorms are female only so that everyone is feel comfortable.",
-          "url": "https://beds24.com/booking2.php?propid=150425",
+          "url": "https://beds24.com/booking2.php?roomid=337835",
           "btnLabel": "Book now"
         },
         {
           "name": "Larger dorms",
           "img": "https://dl.airtable.com/.attachments/eac553f74eca807eeb73d7e55b643564/edd9a9a7/PrincesStreetBackpackers83.jpg",
           "desc": "Bright and spacious 8 to 12 bed rooms for individuals and bigger groups of friends. If you fancy making friends and enjoy the essence of what a hostel is you wil love the budget friendly larger dorms! All the beds feature their personal double wall socket with USB ports, we are also able to lend a personal reading light, please enquire at reception. Top beds alos feature their own personal basket where you can tuck your phone for the night. Linen are clean, fresh and evenly ironed!",
-          "url": "https://beds24.com/booking2.php?propid=150425",
+          "url": "https://beds24.com/booking2.php?roomid=333608,337835",
           "btnLabel": "Book now"
         }
       ]
