@@ -7,10 +7,6 @@ export default {
     //base: ""
   },
 
-  googleAnalytics: {
-    //id: process.env.GA_CODE,
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "test",
@@ -32,7 +28,7 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }, // TODO: Remove prefix princesstreet when needed !
     ],
     script: [
-      { // TODO: Check which one is working
+      {
         src: "https://www.googletagmanager.com/gtag/js?id=G-F7K40QQ8VK",
         async: true,
       },

@@ -1,8 +1,6 @@
-//import Vuex from "vuex";
-
 export const state = () => ({
-  GA_CODE: process.env.GA_CODE,
-  GOOGLE_KEY: process.env.GOOGLE_KEY,
+  GA_CODE: process.env.NODE_ENV === "production" ? process.env.GA_CODE : "",
+  GOOGLE_KEY: process.env.NODE_ENV === "production" ? process.env.GOOGLE_KEY_PROD : process.env.GOOGLE_KEY_DEV,
   WEB_ADDRESS: "https://www.princesstreethostel.com/",
   company: {
     name: "Princes Street Hostel",
@@ -16,9 +14,6 @@ export const state = () => ({
 });
 
 export const mutations = {
-  SET_INIT(state, payload) {
-    state.initiated = payload;
-  },
   SET_LOADING(state, payload) {
     state.loading = payload;
   },
@@ -31,9 +26,6 @@ export const mutations = {
 };
 
 export const actions = {
-  setInit({ commit }, payload) {
-    commit("SET_INIT", payload);
-  },
   setLoading({ commit }, payload) {
     commit("SET_LOADING", payload);
   },
