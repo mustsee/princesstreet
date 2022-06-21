@@ -151,7 +151,7 @@ export default {
       if (from.path != to.path) {
         this.$store.dispatch("setPageData", {
           ...this.pageData,
-          title: "Loading",
+          //title: "Loading",
         });
         this.fadeOut(to, this.$route);
       }
