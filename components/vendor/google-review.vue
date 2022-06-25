@@ -88,6 +88,9 @@ export default {
               months[t.getMonth()] + " " + t.getDate() + ", " + t.getFullYear();
             return review;
           })
+          .filter((review) => {
+            if (review.rating > 3) return true
+          })
           .sort((a, b) => {
             return a.time > b.time ? -1 : 1;
           });
