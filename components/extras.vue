@@ -9,6 +9,7 @@
       <div v-if="item.slides">
         <slide-images :list="item.slides" />
       </div>
+      <whats-app v-if="item.whatsApp" :text="item.whatsApp.text" />
       <div v-if="item.googleMap">
         <google-map :lat="item.googleMap.lat" :long="item.googleMap.long" />
         <br />
@@ -30,6 +31,7 @@ import Button from "@/components/core/Button";
 import slideImages from "@/components/list/slide-images";
 import googleMap from "@/components/vendor/google-map";
 import googleReview from "@/components/vendor/google-review";
+import whatsApp from "@/components/vendor/whats-app"
 
 export default {
   components: {
@@ -37,6 +39,7 @@ export default {
     slideImages,
     googleMap,
     googleReview,
+    whatsApp,
   },
   props: {
     list: { type: Array },

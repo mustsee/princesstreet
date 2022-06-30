@@ -65,12 +65,6 @@
           href="https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link"
           >Contact</a
         >
-        <!--   <nuxt-link
-          to="/contact"
-          :class="getActiveClass('contact')"
-          title="contact"
-          >Contact</nuxt-link
-        > -->
       </li>
       <li>
         <!-- TODO: terms class doesn't exists yet -->
