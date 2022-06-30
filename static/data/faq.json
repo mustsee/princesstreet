@@ -1,0 +1,49 @@
+{
+  "headTitle": "Princes Street Hostel - F.A.Q",
+  "title": "FAQ",
+  "desc": "Everything you always wanted to know about PSH (Princes Street Hostel) but were afraid to ask!",
+  "metaImage": "https://dl.airtable.com/.attachments/1065e17ea1637dfd9c71dc20b4f9edb2/bdc96e1c/b1-1-1000x600.jpg",
+  "body": [
+    {
+      "textsBlock": [
+        {
+          "question": "Payments",
+          "answer": "Payments are taken two days prior to arrival."
+        },
+        { 
+          "question": "WiFi",
+          "answer": "The WiFi works great and you can connect from every room in the hostel and in the lounge area where there are tables you can work from."
+        },
+        {
+          "question": "Lockers",
+          "answer": "The room has lockable lockers and you can either buy a lock from us (£4) or bring your own!"
+        },
+        {
+          "question": "Breakfasts",
+          "answer": "We can offer Breakfast at £3.90 though we are not the ones cooking, it is the cafe downstairs. Breakfast consists of a barista style coffee/hot drink + a filled roll or pancakes. So far our guests are happy with it."
+        },
+        {
+          "question": "Our kitchen",
+          "answer": "We have a kitchen with many cooking utensils, ovens and hobs, a microwave, etc. We don't provide a dinner service but you are welcome to cook something for yourself. We have free salt, spices, instant coffee, tea and sugar."
+        },
+        {
+          "question": "Laundry",
+          "answer": "We do not provide a laundry service, however there is a laundrette 10 minutes walk away : <a href=\"https://www.google.com/maps/place/Bendix+Self+Service/@55.964366,-3.1798181,17z/data=!3m1!4b1!4m5!3m4!1s0x4887b80a8bdf0f49:0x69dc434c27d18ea0!8m2!3d55.9643514!4d-3.1775794\" target=\"_blank\">Bendix Self Service</a>"
+        },
+        {
+          "question": "Can I have a lower bunk bed ?",
+          "answer": "We have a first come first serve policy regarding bed allocation though we are sure we'll have a comfortable bed for you when you arrive."
+        },
+        {
+          "question": "Where can I park my car ?",
+          "answer": "We are right in the town centre and there is no \"good spot\". The best to download the app <a href=\"https://ringgo.co.uk/\" target=\"_blank\">Ringgo</a>, otherwise there is paid parking on Waterloo Place, St Andrews Square or George Square. From 6.30pm till 8.30am, on-street-parking is virtually free."
+        },
+        {
+          "question": "Is there a place to park my bike ?",
+          "answer": "Yes, we have a secure place for your bike. However our hostel is at the top of a building so there are quite a few steps to get up to us."
+        }
+      ]
+    }
+  ],
+  "extras": []
+}

@@ -35,6 +35,7 @@
         :numColumns="item.numColumns"
       />
       <listBox v-if="item.listBox" :list="item.listBox" />
+      <text-block v-if="item.textsBlock" :list="item.textsBlock"></text-block>
       <div v-if="item.slides">
         <slide-images :list="item.slides" />
       </div>
@@ -65,6 +66,7 @@ import chessGrid from "@/components/list/chess-grid";
 import tilesGrid from "@/components/list/tiles-grid";
 import listBox from "@/components/list/list-box";
 import slideImages from "@/components/list/slide-images";
+import textBlock from "@/components/list/text-block"
 import googleMap from "@/components/vendor/google-map";
 import googleReview from "@/components/vendor/google-review";
 
@@ -77,6 +79,7 @@ export default {
     tilesGrid,
     listBox,
     slideImages,
+    textBlock,
     googleMap,
     googleReview,
   },
