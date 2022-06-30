@@ -53,6 +53,11 @@
         >
       </li>
       <li>
+        <nuxt-link to="/faq" :class="getActiveClass('faq')" title="FAQ"
+          >FAQ</nuxt-link
+        >
+      </li>
+      <li>
         <a
           :class="getActiveClass('contact')"
           title="contact"
