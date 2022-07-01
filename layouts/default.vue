@@ -76,13 +76,14 @@ export default {
   .action-button {
     display: flex;
     width: fit-content;
-    background-color: $mainColor;
+    /* background-color: $mainColor; */
     padding: 1em 1.5em;
-    color: #fff;
+    color: $mainColor;
+    border: 3px solid $mainColor;
     cursor: pointer;
     transition: border-radius 0.2s ease-out;
     &:hover {
-      background: linear-gradient(lighten($mainColor, 5%), $mainColor);
+      /* background: linear-gradient(lighten($mainColor, 5%), $mainColor); */
       border-top-right-radius: 1em;
       border-bottom-right-radius: 1.5em;
       transition: all 0.2s;
@@ -95,7 +96,7 @@ export default {
     div {
       font-weight: 600;
       font-size: 1.6em;
-      color: #fff;
+      color: $mainColor;
     }
     span {
       display: flex;
