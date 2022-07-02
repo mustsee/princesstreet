@@ -22,20 +22,19 @@
       <li
         v-for="(item, i) in list"
         :key="i"
-        :class="
-          'menu-item' +
+        :class="[
+         'menu-item' +
           (item.submenu ? ' menu-item--dropdown' : '') +
-          (item.mobileOnly ? ' menu-item--responsive' : '')
-        "
-      >
+          (item.mobileOnly ? ' menu-item--responsive' : ''),
+          item.extraCss ? 'wrapper-book-button' : ''
+        ]">
         <a
           v-if="item.outOfPSH"
           target="_blank"
-          :class="getActiveClass(item)"
+          :class="[getActiveClass(item), item.extraCss ? 'book-button' : '']"
           :title="item.name"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link"
-          >{{ item.name }}</a
-        >
+          :href="item.path"
+          >{{ item.name }}</a>
         <nuxt-link
           v-else
           :to="item.path"
@@ -87,3 +86,33 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+  @import "@/assets/css/base.scss";
+
+  .wrapper-book-button {
+    margin-left: 4em;
+    background-color: $secondColor;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    &:hover {
+      background-color: rgba($secondColor, 0.5);
+      transition: all 0.3s;
+    }
+    .book-button {
+      padding: 0.75em 2em;
+      color: #121212;
+      &:hover {
+        background: inherit;
+      }
+    }
+  }
+
+  .best-price {
+    line-height: 3em;
+    text-align: center;
+    background-color: rgba(#008c3c, 0.8);
+    color: #fff;
+  }
+
+</style>
