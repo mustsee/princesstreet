@@ -1,0 +1,19 @@
+{
+  "headTitle": "Princes Street Hostel, Edinburgh - 2022 - Contact us",
+  "title": "Contact Us",
+  "desc": "We'd love to hear from you !",
+  "metaImage": "https://dl.airtable.com/.attachments/1065e17ea1637dfd9c71dc20b4f9edb2/bdc96e1c/b1-1-1000x600.jpg",
+  "body": [
+    {
+      "contactPageTexts": 
+        {
+          "textTopOne": "You can reach out to us in two different manners",
+          "textTopTwo": "For a quick question and a quick answer (e.g. inform us of a late arrival) the best is to send us a message via WhatsApp.",
+          "textTopThree": "For a question about a booking, a group reservation, etc.,  it might be best to send us an email.",
+          "textBottomOne": "Don't forget to checkout our <a href='https://princesstreethostel.com/faq'>F.A.Q page</a>, the answer you are looking for might already be answered !",
+          "textBottomTwo": "For business enquiries, collaborations, etc., contact us via biz@princesstreethostel.com" 
+        }
+    }
+  ],
+  "extras": []
+}

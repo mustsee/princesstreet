@@ -58,12 +58,8 @@
         >
       </li>
       <li>
-        <a
-          :class="getActiveClass('contact')"
-          title="contact"
-          target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link"
-          >Contact</a
+        <nuxt-link to="/contact-us" :class="getActiveClass('contact-us')" title="Contact us"
+          >Contact</nuxt-link
         >
       </li>
       <li>

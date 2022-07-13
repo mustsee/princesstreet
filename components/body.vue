@@ -36,6 +36,7 @@
       />
       <listBox v-if="item.listBox" :list="item.listBox" />
       <text-block v-if="item.textsBlock" :list="item.textsBlock"></text-block>
+      <contact-page-texts v-if="item.contactPageTexts" :list="item.contactPageTexts"></contact-page-texts>
       <div v-if="item.slides">
         <slide-images :list="item.slides" />
       </div>
@@ -62,6 +63,7 @@
 import Button from "@/components/core/Button";
 import LazyImage from "@/components/core/LazyImage";
 import Table from "@/components/core/Table";
+import contactPageTexts from "@/components/core/Contact.vue";
 import chessGrid from "@/components/list/chess-grid";
 import tilesGrid from "@/components/list/tiles-grid";
 import listBox from "@/components/list/list-box";
@@ -75,6 +77,7 @@ export default {
     Button,
     LazyImage,
     Table,
+    contactPageTexts,
     chessGrid,
     tilesGrid,
     listBox,

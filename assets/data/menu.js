@@ -9,13 +9,12 @@ module.exports = {
       path: "/rooms",
     },
     {
-      name: "FAQ",
-      path: "/faq"
+      name: "Contact",
+      path: "/contact-us",
     },
     {
-      outOfPSH: true, // Outside Of Princes Street Hostel
-      name: "Contact",
-      path: "https://docs.google.com/forms/d/e/1FAIpQLScJ0OliRiP5b-HDEXfdMuFfCBF3UJHqDRDCsIyJxe_yxfod6w/viewform?usp=sf_link",
+      name: "FAQ",
+      path: "/faq"
     },
 /*     {
       extraCss: true,
