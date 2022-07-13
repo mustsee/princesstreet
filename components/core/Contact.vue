@@ -25,7 +25,7 @@
         href="mailto:hello@princesstreethostel.com"
         class="email-button"
         rel="noopener"
-        title="Open Email"
+        title="Open email"
         target="_blank"
       >
         <span>Email</span>
