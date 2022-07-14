@@ -1,6 +1,6 @@
 <template>
   <div class="contact-wrapper">
-    <h1>{{ list.textTopOne }}</h1>
+    <p class="textTopOne">{{ list.textTopOne }}</p>
     <p>{{ list.textTopTwo }}</p>
     <p>{{ list.textTopThree }}</p>
     <div class="buttons-wrapper">
@@ -55,14 +55,17 @@ export default {
 <style lang="scss" scoped>
   .contact-wrapper {
     text-align: center;
-    h1 {
+    /* h1 {
       margin-bottom: 0.8em;
+    } */
+    .textTopOne {
+      font-weight: bold;
+      line-height: 2.0;
     }
     .biz {
-      font-size: 1em;
+      font-size: 0.9em;
     }
     p {
-      font-size: 1.2em;
       margin-bottom: 0.4em;
     }
     .buttons-wrapper {
@@ -96,7 +99,7 @@ export default {
         .wa-icon {
           height: 24px;
           width: 24px;
-          margin-left: 0.5em;
+          margin-left: 0.8em;
         }
       }
       .email-button {
@@ -105,7 +108,7 @@ export default {
         .email-icon {
           height: 22px;
           width: 22px;
-          margin-left: 0.5em;
+          margin-left: 0.8em;
         }
       }
     }
