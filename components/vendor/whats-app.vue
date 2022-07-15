@@ -2,7 +2,7 @@
   <div class="whatsapp-wrapper">
     <div class="text" v-html="text"></div>
     <div class="whatsapp-icon">
-      <a href="https://wa.me/447553137828" rel="noopener" title="Whatsapp" target="_blank">
+      <a href="https://wa.me/447553137828?text=faq%20page%20-%20" rel="noopener" title="Whatsapp" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path
             fill="#25D366"

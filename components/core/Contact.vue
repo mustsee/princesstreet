@@ -5,7 +5,7 @@
     <p>{{ list.textTopThree }}</p>
     <div class="buttons-wrapper">
       <a 
-        href="https://wa.me/447553137828" 
+        href="https://wa.me/447553137828?text=contact%20page%20-%20" 
         class="wa-button" 
         rel="noopener" 
         title="Open WhatsApp" 
