@@ -4,7 +4,7 @@ export default {
 
   router: {
     //base: "/princesstreet/",
-    base: ""
+    base: "",
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -34,6 +34,11 @@ export default {
       },
       {
         src: "js/ga.js",
+      },
+      {
+        src: "//gc.zgo.at/count.js",
+        "data-goatcounter": "https://goat-test.goatcounter.com/count",
+        async: true,
       },
     ],
   },
