@@ -1,5 +1,5 @@
 {
-  "headTitle": "Princes Street Hostel, Edinburgh - 2022 - F.A.Q",
+  "headTitle": "Princes Street Hostel, Edinburgh - 2023 - F.A.Q",
   "title": "FAQ",
   "desc": "Everything you always wanted to know about PSH (Princes Street Hostel) but were afraid to ask!",
   "metaImage": "https://dl.airtable.com/.attachments/1065e17ea1637dfd9c71dc20b4f9edb2/bdc96e1c/b1-1-1000x600.jpg",
@@ -10,7 +10,7 @@
           "question": "Payments",
           "answer": "Payments are taken two days prior to arrival."
         },
-        { 
+        {
           "question": "WiFi",
           "answer": "The WiFi works great and you can connect from every room in the hostel and in the lounge area where there are tables you can work from."
         },
@@ -49,7 +49,7 @@
     {
       "whatsApp": {
         "text": "Your question is left unanswered ?\nReach out on <b>Whatsapp</b> !"
-      } 
+      }
     }
   ]
 }
